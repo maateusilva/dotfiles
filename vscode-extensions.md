@@ -22,6 +22,6 @@ Here is the list of extensions that I'm currently using on my VSCode
 * [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 * [TODO.md Kanban Board](https://marketplace.visualstudio.com/items?itemName=coddx.coddx-alpha)
-* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
 * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 * [Watch in Chrome](https://marketplace.visualstudio.com/items?itemName=sneezry.watch-in-chrome)
