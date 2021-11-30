@@ -4,6 +4,7 @@
   "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.untitled.hint": "hidden",
   
   // Editor settings
   "editor.wordWrap": "on",
@@ -16,11 +17,12 @@
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "extensions.ignoreRecommendations": true,
-  
+    
   // VSCode stuff
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
@@ -34,6 +36,7 @@
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   
   // Extensions
+  "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "material-icon-theme.folders.associations": {
     "domain": "core",
@@ -45,6 +48,7 @@
     "repositories": "mappings",
     "protocols": "resource",
     "useCases": "components",
+    "subcomponents": "components",
     "adapters": "connection",
     "factories": "container",
     "globals": "global",
@@ -55,7 +59,17 @@
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
   },
-  "workbench.editor.untitled.hint": "hidden",
   "polacode.transparentBackground": true,
-  "polacode.shadow": "rgba(0, 0, 0, 0) 0px 0 0"
+  "polacode.shadow": "none",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "editor.inlineSuggest.enabled": true,
 }
